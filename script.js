@@ -24,10 +24,6 @@ const products = [
     new Product(8, "MacBook Pro M3", 45000000, 2, "Điện tử", true)
 ];
 
-console.log("============================================");
-console.log("BÀI TẬP QUẢN LÝ SẢN PHẨM");
-console.log("============================================\n");
-
 // Câu 3:
 console.log("Câu 3: Mảng chứa name và price của mỗi sản phẩm");
 const namePriceArray = products.map(product => ({
